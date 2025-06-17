@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects</title>
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a> |
+<a href="/projects/">Projects</a> |
+<a href="/blog/">Blog</a> |
+<a href="/courses/">Courses</a>
+
+
+  </nav>
+  <main>
+    
+<h1>Projects</h1>
+
+<div class="projects-grid">
+  
+    <div class="project-card">
+      <a href="/projects/test-project/" class="project-link">
+        <div class="project-info">
+          <h2>Test Project</h2>
+          
+            <p>A demo project for testing.</p>
+          
+        </div>
+        
+          <img 
+            src="/projects/test-project/images/thumbnail.png" 
+            alt="Test Project thumbnail" 
+            class="project-thumb" 
+          />
+        
+      </a>
+    </div>
+  
+    <div class="project-card">
+      <a href="/projects/test-project-2/" class="project-link">
+        <div class="project-info">
+          <h2>Test Project</h2>
+          
+            <p>A demo project for testing.</p>
+          
+        </div>
+        
+          <img 
+            src="/projects/test-project-2/images/thumbnail.png" 
+            alt="Test Project thumbnail" 
+            class="project-thumb" 
+          />
+        
+      </a>
+    </div>
+  
+</div>
+
+<style>
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+.project-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: left;
+}
+.project-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 1rem;
+}
+.project-info {
+  flex: 1;
+}
+.project-thumb {
+  width: 120px; /* fixed width to keep it small */
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+</style>
+
+
+  </main>
+</body>
+</html>
+

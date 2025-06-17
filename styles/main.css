@@ -1,0 +1,97 @@
+/* Reset & base styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3 {
+  line-height: 1.3;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Links */
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+/* Navigation */
+nav {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+nav a {
+  margin: 0 1rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+  padding: 1rem;
+  text-align: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 5px 15px rgb(0 0 0 / 0.15);
+}
+
+.project-card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-thumb {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.75rem;
+}
+
+.project-card h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+}
+

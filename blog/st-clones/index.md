@@ -108,7 +108,7 @@ I came across this video on programming by Low Level Learning on YouTube
 that goes through flashing an STM32 without an IDE at all,
 which was a good jumping off point, but not exactly what I was looking for.
 
-[Intro to the blue pill without the Arduino framework (by Low Level Learning)](https://www.youtube.com/watch?v=YEGKD6JQJyM)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/YEGKD6JQJyM/0.jpg)](https://www.youtube.com/watch?v=YEGKD6JQJyM)
 
 I very much agree with his dislike of large IDE's like ST's.
 

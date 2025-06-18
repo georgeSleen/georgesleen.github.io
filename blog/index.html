@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Blogs</title>
+  <link rel="stylesheet" href="/styles/main.css" />
+</head>
+<body>
+  <nav>
+    <a href="/">Home</a> |
+<a href="/projects/">Projects</a> |
+<a href="/blog/">Blog</a> |
+<a href="/courses/">Courses</a>
+
+
+  </nav>
+  <main>
+    
+<h1>Blogs</h1>
+
+<div class="blogs-grid">
+  
+    <div class="blog-card">
+      <a href="/blog/dorm-light/" class="blog-link">
+        <div class="blog-info">
+          <h2>Smart Dorm Room Lights</h2>
+          
+        </div>
+        
+      </a>
+    </div>
+  
+    <div class="blog-card">
+      <a href="/blog/mint-switch/" class="blog-link">
+        <div class="blog-info">
+          <h2>Switching to Linux Mint</h2>
+          
+        </div>
+        
+      </a>
+    </div>
+  
+    <div class="blog-card">
+      <a href="/blog/st-clones/" class="blog-link">
+        <div class="blog-info">
+          <h2>ST-Link, Blue Pills, and Compiling for Clones</h2>
+          
+        </div>
+        
+      </a>
+    </div>
+  
+</div>
+
+<style>
+.blogs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+.blog-card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 6px;
+  text-align: left;
+}
+.blog-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  gap: 1rem;
+}
+.blog-info {
+  flex: 1;
+}
+.blog-thumb {
+  width: 120px; /* fixed width to keep it small */
+  height: auto;
+  border-radius: 4px;
+  object-fit: cover;
+}
+</style>
+
+
+  </main>
+</body>
+</html>
+

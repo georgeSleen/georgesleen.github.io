@@ -52,7 +52,7 @@ I don't feel like fighting my packages to install by editing my config file, whe
 <p>One thing I did change between this install and the last one, is the filesystem I use.</p>
 <p>Instead of the default 'ext4' filesystem, I chose BTRFS, as I'd heard about the snapshot feature and easy partition (or subvolume) resizing.</p>
 <p>BTRFS is a copy on write filesystem, meaning that whenever a 'copy' is made, BTRFS doesn't copy it, but just lets both places point to the same memory. Only when that memory <em>changes</em> does a copy get made.</p>
-<p>[image of pointers and stuff for copy on write]</p>
+<p><img src="images/btrfs.jpg" alt="image of pointers and stuff for copy on write"></p>
 <p>This lets some pretty cool stuff happen, in that you can back up your <strong>entire</strong> partition, with all data, for a pretty small cost. With RSYNC (which is what you'd need on ext4 to make backups), it takes a huge amount of space just to keep a few bootable copies of your system.
 With BTRFS, I have my whole 384 GiB partition, with about 90 GiB of actual data, and I still have 270 GiB to spare. That means it's all backed up for only 24 GiB! My old Timeshift files only included some parts of /, and took up 80+ GiB.</p>
 <p><img src="images/timeshift.png" alt="Timeshift Screenshot"></p>

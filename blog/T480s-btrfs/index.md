@@ -68,7 +68,7 @@ Instead of the default 'ext4' filesystem, I chose BTRFS, as I'd heard about the 
 
 BTRFS is a copy on write filesystem, meaning that whenever a 'copy' is made, BTRFS doesn't copy it, but just lets both places point to the same memory. Only when that memory *changes* does a copy get made.
 
-[image of pointers and stuff for copy on write]
+![image of pointers and stuff for copy on write](images/btrfs.jpg)
 
 This lets some pretty cool stuff happen, in that you can back up your **entire** partition, with all data, for a pretty small cost. With RSYNC (which is what you'd need on ext4 to make backups), it takes a huge amount of space just to keep a few bootable copies of your system.
 With BTRFS, I have my whole 384 GiB partition, with about 90 GiB of actual data, and I still have 270 GiB to spare. That means it's all backed up for only 24 GiB! My old Timeshift files only included some parts of /, and took up 80+ GiB.

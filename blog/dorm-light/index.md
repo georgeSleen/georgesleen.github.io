@@ -1,8 +1,8 @@
 ---
-title: "Smart Dorm Room Lights"
+title: "Smart dorm room lights"
 layout: base.njk
-# subtitle: "Integrate Wi-Fi into my dorm's light switch with an ESP8266"
-# date: 2023-10-01T12:00:00+08:00
+date: 2023-10-01T12:00:00+08:00
+thumbnail: "images/wifi-light-1.jpg"
 ---
 
 Late one night, in a procrastination-fueled productivity burst, I decided that I wanted to connect something physical to the internet.
@@ -20,7 +20,7 @@ Plus they had a little proto-board for it!
 
 #
 
-![ESP32 Protoboard](esp8266+proto.png)
+![ESP32 Protoboard](images/esp8266+proto.png)
 
 #
 
@@ -31,7 +31,7 @@ I added a 3.3 V linear regulator, a button connected to one of the GPIO, and a h
 
 The button is for when I'm physically there, which flips the current state of the light switch, and the servo is connected directly to the USB 5 V rail.
 
-![Soldered protoboard](wifi-light-1.jpg)
+![Soldered protoboard](images/wifi-light-1.jpg)
 
 I had a USB to UART converter handy, so it wasn't too bad to program the ESP8266. I also found [Adafruit IO](https://io.adafruit.com/) as a really easy way to connect my board to the internet.
 
@@ -41,7 +41,7 @@ I was visiting my parents place over reading break, which was when I did most of
 I attached the setup to a light at home and tested that the servo and arm could actuate the switch, and that I could control it through the Adafruit IO webpage.
 Everything seemed to work, and I was excited to take it back to university!
 
-![Assembly](wifi-light-2.jpg)
+![Assembly](images/wifi-light-2.jpg)
 
 Not pictured is the USB cable used for power.
 

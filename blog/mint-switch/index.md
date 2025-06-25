@@ -1,10 +1,10 @@
 ---
-title: "Switching to Linux Mint"
+title: "Switching to linux"
 layout: base.njk
 #draft: false
 #type: ""
-#date: 2025-02-07T12:00:00+08:00
-#image: ""
+date: 2025-02-07T12:00:00+08:00
+thumbnail: "images/tux.png"
 ---
 
 Recently OneDrive has been screwing with my files again,
@@ -17,7 +17,7 @@ I did a quick search through different Linux distributions and wanted something 
 while being well-supported and easy to troubleshoot. I'm happy to tinker with software until I get it working,
 but this is the machine that I use personally and for school, so I'd rather not be wrangling drivers when a problem set is due in two hours.
 
-![Greentext](linux-greentext.png)
+![Greentext](images/linux-greentext.png)
 
 I briefly considered Ubuntu, but remembered an old Linus Tech Tips video where he uses Mint and says it's been his favorite distro so far.
 I checked out the distro and I thought it looked good, so I got a bootable USB flash drive ready and went to install Mint!
@@ -51,7 +51,7 @@ I'd never realized just how much bloat is on a Windows installation until I open
 and Mint is definitely *not* one of the leanest Linux Distros.
 It was shockingly easy to set up all the software that I'd been using on Windows and configure it just how I liked.
 
-![Neofetch](neofetch-mint-cropped.png)
+![Neofetch](images/neofetch-mint-cropped.png)
 
 I've been daily driving Mint for almost a month now, and while I enjoy it much more than Windows so far, I see why Linux isn't for everyone.
 You don't *have* to be proficient with a CLI, but I think that it helps a lot to have that tool when you need it.

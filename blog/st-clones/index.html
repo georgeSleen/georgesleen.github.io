@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>ST-Link, Blue Pills, and Compiling for Clones</title>
+  <title>ST-link, blue pills, and compiling for clones</title>
   <link rel="stylesheet" href="/styles/main.css" />
 </head>
 <body>
@@ -26,7 +26,7 @@ It's a fairly popular and affordable starting point for anyone going beyond the 
 and it's well documented by the community which is nice as a novice.
 It can be challenging to source one with legitimate parts, which turns out to be a small headache later.</p>
 <h1></h1>
-<p><img src="blue-pill.png" alt="Blue Pill dev board"></p>
+<p><img src="images/blue-pill.png" alt="Blue Pill dev board"></p>
 <p>Mine turns out to have a &quot;RESRT&quot; button. Much better than the more common &quot;RESET.&quot;</p>
 <p>While the reasons above are good reasons to get a Blue Pill in and of themselves,
 I know that I'll be using an identical board over the summer during my robot design and competition course.
@@ -35,7 +35,7 @@ and all the second year Engineering Physics students form teams of 4 to design a
 Themes have varied since the course (ENPH 253) was introduced,
 with the most recent one's goal being to play &quot;Overcooked,&quot; but they've all used an STM32 MCU.</p>
 <h1></h1>
-<p><img src="robot-summer-thumbnail.jpg" alt="Previous year's robot summer"></p>
+<p><img src="images/robot-summer-thumbnail.jpg" alt="Previous year's robot summer"></p>
 <p>Last year's Robot Summer competition.</p>
 <p>Since I was interested regardless, I bought the least expensive Blue Pill I could find on Amazon.
 But only having experience with dev boards that have a USB programming interface enabled by default,
@@ -46,7 +46,7 @@ I opted to also buy the cheapest version of that I could find on Amazon as well.
 After that, it's possible to load a bootloader with USB communication,
 but it lacks some of the awesome features of using an ST-Link, so I haven't gotten around to doing that yet.</p>
 <h1></h1>
-<p><img src="st-link.png" alt="ST-Link V2"></p>
+<p><img src="images/st-link.png" alt="ST-Link V2"></p>
 <h3>Connecting to the Board</h3>
 <p>Connecting to the Blue Pill is easy, just connecting power, SWCLK, and SWIO
 should mean that you can talk to the MCU with a little bit of software on your computer.</p>
@@ -74,7 +74,7 @@ It even seems like my Blue Pill has 128KiB of flash, even though some only come 
 <p>Once I confirmed that everything seemed to show up, the next step was to upload some code to the Blue Pill.
 I had a few options to look at, but the big two I was familiar with were the STM32CubeIDE and PlatformIO.</p>
 <h1></h1>
-<p><img src="platformio.jpg" alt="STM32CubeIDE vs PlatformIO"></p>
+<p><img src="images/platformio.jpg" alt="STM32CubeIDE vs PlatformIO"></p>
 <h1></h1>
 <p>STM32CubeIDE is STMicroelectronics' offering of IDE, designed specifically for their boards.
 It has a LOT of features built in, most of which I don't especially care about for most of my projects,
@@ -195,7 +195,7 @@ With just a little more forum searching, I saw that I just needed to add this to
     target/stm32f1x.cfg
 </code></pre>
 <video controls autoplay muted loop style="max-width: 100%; height: auto;">
-  <source src="live-debugging.mp4" type="video/mp4">
+  <source src="videos/live-debugging.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <p>In the bottom right you can see the LED turn on add off with the code I'm stepping through.</p>

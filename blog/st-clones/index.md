@@ -1,9 +1,8 @@
 ---
-title: "ST-Link, Blue Pills, and Compiling for Clones"
+title: "ST-link, blue pills, and compiling for clones"
 layout: base.njk
-#draft: false
-#type: ""
-#date: 2025-04-12T12:00:00+08:00
+date: 2025-04-12T12:00:00+08:00
+thumbnail: "images/blue-pill-stock.jpg"
 ---
 
 Moving away from Arduino for embedded systems comes with lots of perks,
@@ -20,7 +19,7 @@ It can be challenging to source one with legitimate parts, which turns out to be
 
 #
 
-![Blue Pill dev board](blue-pill.png)
+![Blue Pill dev board](images/blue-pill.png)
 
 Mine turns out to have a "RESRT" button. Much better than the more common "RESET."
 
@@ -33,7 +32,7 @@ with the most recent one's goal being to play "Overcooked," but they've all used
 
 #
 
-![Previous year's robot summer](robot-summer-thumbnail.jpg)
+![Previous year's robot summer](images/robot-summer-thumbnail.jpg)
 
 Last year's Robot Summer competition.
 
@@ -50,7 +49,7 @@ but it lacks some of the awesome features of using an ST-Link, so I haven't gott
 
 #
 
-![ST-Link V2](st-link.png)
+![ST-Link V2](images/st-link.png)
 
 ### Connecting to the Board
 
@@ -94,7 +93,7 @@ I had a few options to look at, but the big two I was familiar with were the STM
 
 #
 
-![STM32CubeIDE vs PlatformIO](platformio.jpg)
+![STM32CubeIDE vs PlatformIO](images/platformio.jpg)
 
 #
 
@@ -252,7 +251,7 @@ debug_server =
 ```
 
 <video controls autoplay muted loop style="max-width: 100%; height: auto;">
-  <source src="live-debugging.mp4" type="video/mp4">
+  <source src="videos/live-debugging.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
